@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <Authors>Tom Laird-McConnell</Authors>
+    <Product />
+    <Description>Use JSON.Net JsonPath parser from command line</Description>
+    <PackageProjectUrl>https://github.com/tomlm/jsonpath.cli</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tomlm/jsonpath.cli</RepositoryUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryType>github</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>JsonPath-cli</PackageId>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>jsonpath</ToolCommandName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+</Project>

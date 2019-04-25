@@ -1,0 +1,9 @@
+bin
+obj
+nupkg
+.vs/JsonPath/v16/Server/sqlite3/storage.ide-wal
+.vs/JsonPath/v16/Server/sqlite3/storage.ide-shm
+.vs/JsonPath/v16/Server/sqlite3/storage.ide
+.vs/JsonPath/v16/Server/sqlite3/db.lock
+.vscode/launch.json
+.vscode/tasks.json
